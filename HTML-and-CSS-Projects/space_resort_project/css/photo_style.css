@@ -2,7 +2,11 @@ p{
     font-weight:300;
     line-height:30px;
     padding-bottom:15px;
-    /*why can't i see the paragraph*/
+    /*why can't i see the paragraph, 
+    might be the overflow below
+    or something wrong with photo overlay, 
+    issue resolved was missing  period for 
+    photo overlay hover*/
 }
 .photo{
     position:relative;
@@ -48,9 +52,9 @@ p{
 }
 /*photo overlay transistions*/
 .photo-overlay {
-    opacity:0;
+    opacity: 0;
     transition: opacity .1s;
-    border-radius:10px;
+    border-radius: 10px;
     cursor:pointer;
 }
 .photo-overlay p {
@@ -58,8 +62,8 @@ p{
     height:100%;
     color:#fff;
 }
-photo-overlay:hover{
-    opacity:1;
+.photo-overlay:hover{
+    opacity: 1;
 }
 .photo img{
     transition:transform .5s;
