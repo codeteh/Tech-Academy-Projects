@@ -1,0 +1,23 @@
+body  {
+    background-color: bisque;
+}
+
+.headerphoto {
+    height:75px;
+    border-radius:10%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.headerphoto:hover {
+    filter:grayscale(50%)
+}
+
+header {
+    background-color: whitesmoke;
+    text-align:center;
+    /*aligned headerphoto along with text using text-align center, added left and right margins later for assingments sake*/
+    font-size:1.2em;
+    font-weight:bold;
+}
+
