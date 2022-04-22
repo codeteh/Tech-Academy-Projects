@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#About">About </a>
+              <a class="nav-link text-light" href="#about">About </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#Showtimes">Showtimes</a>
+              <a class="nav-link text-light" href="#showtimes">Showtimes</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#Deals">Deals</a>
+              <a class="nav-link text-light" href="#deals">Deals</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -48,7 +48,7 @@
     
     
       <!--start columns about section and now playing-->
-    <div id="About">
+    <div id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
@@ -80,23 +80,66 @@
     </div>
     <!--end columns about section and now playing-->
    
-    <!--showtimes use of badges-->
+    <!--showtimes use of card and badges for times from bootstrap-->
+    <div class="card-group">
+        <div class="card">
+          <img src="./images/kongskullisland.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Kong: Skull Island</h4>
+            <p class="card-text">A team of scientists explore an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden .</p> <br>
+            <span class="badge badge-pill badge-info">12:00pm</span> 
+            <span class="badge badge-pill badge-info">1:30pm</span>
+            <span class="badge badge-pill badge-info">3:00pm</span>
+            <span class="badge badge-pill badge-info">5:30pm</span> 
+            <span class="badge badge-pill badge-info">7:00pm</span>
+            <span class="badge badge-pill badge-info">9:30pm</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/ghostintheshell.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Ghost in a Shell</h4>
+            <p class="card-text">In the near future, Major Mila Killian is the first of her kind: a human saved 
+            from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to 
+            stopping the world's most dangerous criminals.</p><br>
+                <span class="badge badge-pill badge-info">12:00pm</span> 
+                <span class="badge badge-pill badge-info">1:30pm</span>
+                <span class="badge badge-pill badge-info">3:00pm</span>
+                <span class="badge badge-pill badge-info">5:30pm</span> 
+                <span class="badge badge-pill badge-info">7:00pm</span>
+                <span class="badge badge-pill badge-info">9:30pm</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/beautyandthebeast.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Beauty and the Beast</h4>
+            <p class="card-text">A selfish prince is cursed to become a monster for the rest of his life, unless
+            he learns to fall in love with a woman he keeps as prisoner.</p><br>
+            <span class="badge badge-pill badge-info">12:00pm</span> 
+            <span class="badge badge-pill badge-info">1:30pm</span>
+            <span class="badge badge-pill badge-info">3:00pm</span>
+            <span class="badge badge-pill badge-info">5:30pm</span> 
+            <span class="badge badge-pill badge-info">7:00pm</span>
+            <span class="badge badge-pill badge-info">9:30pm</span>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    
+    
+
+    
+    
 
 
-
-
-
-
-
-
-
-
-
-    <!--end showtimes use of badges-->
+    <!--end showtimes use of badges from bootstrap-->
 
     <!--start email form-->
     
-<div class="emailsumbimt text-center">
+<div class="emailsumbimt text-center" id="deals">
     <form>
         <h1 class="text-primary my-5">Sign up for Movie Club Rewards</h1>
         <div class="form-group">
