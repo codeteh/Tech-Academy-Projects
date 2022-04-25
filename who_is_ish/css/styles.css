@@ -2,6 +2,24 @@ body  {
     background-image: url('../pictures/background.jpg');
 }
 
+.navbar {
+    font-size:0.7em;
+    font-family:'Times New Roman', Times, serif;
+    color:gold;
+    text-align:justify;
+    position:fixed;
+    background-color: blue;
+}
+
+.navbar:hover {
+    font-size: 1rem;
+}
+
+.navbar a {
+    color:gold;
+}
+
+
 .headerphoto {
     height:75px;
     border-radius:10%;
@@ -14,8 +32,7 @@ body  {
 }
 
 
-header {
-    text-align:center;
+.navbar2 {
     font-size:1.2em;
     font-weight:bold;
 }
