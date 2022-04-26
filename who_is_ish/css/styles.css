@@ -41,6 +41,38 @@ nav a {
    color: aliceblue; 
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height:fit-content;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+   width:75%; 
+}
+
+.right h4 {
+    color:darkblue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+
 footer{
     background-color:beige;
     text-align:center;
@@ -76,10 +108,23 @@ p:hover {
     color:aliceblue;
 }
 
-#education{
+#education {
     text-align: center;
     color:aliceblue;
 }
+
+iframe {
+    width:1050px;
+    height:600px;
+}
+
+.tech {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 #edutable {
     padding:0.5px 1px 0.5px 1px;
@@ -123,3 +168,13 @@ p:hover {
     left:20px;
     top:50px;
 }
+
+@media screen and (max-width: 600px) {
+    p {
+      background-color: whitesmoke;
+      color:blue;
+    }
+    body {
+        background-color: whitesmoke;
+    }
+  }
