@@ -1,0 +1,55 @@
+/*GENERAL STYLING*/
+
+/*END GENERAL STYLING*/
+
+/*NAVBAR STYLING*/
+.navbar {
+    position:fixed;
+    background-color: black;
+    top:0%;
+    z-index: 1;
+    overflow:hidden;
+    /*will add webkit animation and animation later*/
+    }
+
+    .navbar a {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:#D4FFFD;
+        font-size: 20px;
+        text-align:center;
+        text-decoration:none;
+        position:relative;
+        float:left;
+        display:block;
+        padding: 0px 14px 0px 16px;
+        /*will add padding, webkit animation , animation  later*/
+    }
+
+/*END NAVBAR STYLING*/
+
+/*VIDEO STYLING*/
+#typing_video {
+    position:fixed;
+    z-index: -1;
+    right: 0%;
+    bottom: 0%;
+    min-width: 100%;
+}
+
+.video_text {
+    color:#D4FFFD;
+    position:relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding:20px;
+}
+/*END VIDEO STYLING*/
+
+/*TABLE STYLING*/
+
+/*END TABLE STYLING*/
+
+
+/*CONTACT FORM STYLING*/
+
+/*END CONTACT FORM STYLING*/
