@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<!--HEAD-->
     <head>
@@ -10,14 +10,14 @@
 	<!--END_HEAD-->
 
     <!--Body-->
-<body class="background">
+    <body class="background">
     
     <!--NAV-->
 	<div class="navbar">
-		<a class="active" href="#home">HOME</a>	
-		<a href="#about">ABOUT</a>	
+		<a class="active" href="#home">Home</a>	
+		<a href="#about">About</a>	
 		<a href="#github">GitHub</a>	
-		<a href="#contact">CONTACT</a>
+		<a href="#contact">Contact</a>
     </div>
     <!--END_NAV-->
     <br>
@@ -34,10 +34,11 @@
         <!--end-background video-->
         
         <!--text over background video-->
-        <div class="video_text">
-            <h1>Ishmeal's Portfolio</h1>
+    <div class="video_text">
+        <h1 class="white-text">Ishmeal's Portfolio</h1>
             
-                <p class="center"><strong>
+                <p class="center">
+                    <strong>
                     <q cite="https://quotefancy.com/quote/2781155/H-G-Wells-It-is-a-law-of-nature-we-overlook-that-intellectual-versatility-is-the">
                     It is a law of nature we overlook, that intellectual versatility 
                     <br>is the compensation for change, danger, and trouble.
@@ -45,10 +46,12 @@
                     </q>
                     <br> — H. G. Wells
                     <br>
-                    <br>My name is Ishmeal Conteh. Welcome to my portfolio website. On it, you will get insight about my background and experience.</strong>
+                    <br>Hello World!!! My name is Ishmeal Conteh.
+                    <br> Welcome to my portfolio website. 
+                    <br>On it, you will get insight into my background and experience.
+                    </strong>
                 </p>
-            </strong>
-        </div>
+    </div>
         <!--text over background video-->
     
     <!--End Home-->
@@ -91,7 +94,7 @@
             </div>
             <!--right column-->
             <div class="column_2">
-                <a href="https://github.com/codeteh/Tech-Academy-Projects" target="blank"><image src="images/githublogo.png" alt="github logo"></a>
+                <a href="https://github.com/codeteh/Tech-Academy-Projects" target="blank"><img src="images/githublogo.png" alt="github logo"></a>
             </div>
         </div>
 
@@ -100,36 +103,33 @@
     <!--End_Contact-->
         <div class="row" id="contact">
             <!--contact iamge, left column-->
-            <div class="column_2">
-
+            <div class="column_2 column_tall">
+                <img src="./images/contact.jpg" alt="contact_image">
             </div>
             <!--contact_form, right column-->
-            <div class="column_1">
-
+            <div class="column_1 column_tall">
+                <h1>Contact</h1>
+                <!--form spree endpoint in action attribute-->
+                <form action="https://formspree.io/f/meqnpedo" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
             </div>
-        </div>
-
-
-
-
-
-
         </div>
 
     <!--FOOTER-->
+    <footer>
+        <p><!--may remove later...-->
+            <p class="center">&copy; medit8 LLC, <a href="https://www.learncodinganywhere.com/" target="blank">The Tech Academy</a></p>
+        </p>
+    </footer>
 
     <!--END_FOOTER-->
 
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    </body>
 </html>
